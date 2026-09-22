@@ -1,0 +1,41 @@
+# Dataset images and folders
+Dataset/
+
+# Trained models and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.npz
+fl_checkpoints/
+
+# Training logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large archives
+*.zip
+*.7z
+*.rar
