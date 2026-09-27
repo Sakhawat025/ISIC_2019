@@ -1,0 +1,7 @@
+{
+  "baseline_model": "C:\\SRS(ISIC_2019)\\centralized_runs\\20260922_025359_c4131415\\best_centralized_model.pth",
+  "baseline_model_sha256": "1736f0317d4ed7e1f7a38968a60322c7c31bc570c8d668551f8f81225763a757",
+  "previous_failed_attempt": "C:\\SRS(ISIC_2019)\\centralized_finetuning_runs\\cb_finetune_20260922_183948_69fb119f",
+  "restart_from": "original baseline weights",
+  "reason": "AMP gradient overflow recovery"
+}

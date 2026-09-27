@@ -1,0 +1,2 @@
+epoch,stage,train_loss,head_lr,backbone_lr,selected_as_best,val_loss,val_multi_nll,val_binary_nll,val_accuracy,val_balanced_accuracy,val_macro_f1,val_binary_auc,val_mel_recall,val_scc_recall
+0,baseline,,0.0,0.0,True,0.7495975560913266,0.603467302958842,0.29226050626496924,0.8218799368088467,0.7426279026625667,0.7319025416332976,0.9442774112857739,0.6150442477876106,0.5079365079365079

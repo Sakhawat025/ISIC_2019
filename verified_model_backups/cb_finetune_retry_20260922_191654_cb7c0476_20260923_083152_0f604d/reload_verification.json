@@ -1,0 +1,30 @@
+{
+  "source_run": "C:\\SRS(ISIC_2019)\\centralized_finetuning_runs\\cb_finetune_retry_20260922_191654_cb7c0476",
+  "best_epoch": 7,
+  "checkpoint_sha256": "eb9b9b6082f35538e63eeee793d531385455dc96dfa240dda6f3f4b14b4e695f",
+  "binary_threshold": 0.2889830888659374,
+  "classes": [
+    "AK",
+    "BCC",
+    "BKL",
+    "DF",
+    "MEL",
+    "NV",
+    "SCC",
+    "VASC"
+  ],
+  "malignant_indices": [
+    1,
+    4,
+    6
+  ],
+  "copied_files": 42,
+  "strict_model_load": "passed",
+  "restored_tensor_comparison": "passed",
+  "single_image_inference": "passed",
+  "verification_image_id": "isic_0024468",
+  "validation_transform": "Compose(\n    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+  "torch_version": "2.11.0+cu128",
+  "device": "cuda",
+  "note": "Inference reuse verified. Notebook architecture definitions and dependencies are still required. Exact training resume requires optimizer, scheduler, scaler and RNG states."
+}

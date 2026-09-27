@@ -1,0 +1,35 @@
+{
+  "binary_threshold": 0.1761469595689018,
+  "default_0_5": {
+    "FN": 253,
+    "FP": 208,
+    "TN": 1477,
+    "TP": 594,
+    "accuracy": 0.8179304897314376,
+    "f1": 0.7204366282595512,
+    "precision": 0.7406483790523691,
+    "sensitivity": 0.7012987012987013,
+    "specificity": 0.8765578635014837,
+    "threshold": 0.5
+  },
+  "provenance": {
+    "calibration_sha256": "e406a73399d7207e760bdcd8510ac76481d7b456de2438b2ee4320f3385c5481",
+    "manifest_sha256": "a89c761bb3a57fb9014a539980669b7d0f9bd0dc1459432f4d1293374403f140",
+    "model_sha256": "168d4c20fba43b795d6d3f3a284a8eed4e9cd15a03489d588500562f9aa2b868"
+  },
+  "selected": {
+    "FN": 84,
+    "FP": 609,
+    "TN": 1076,
+    "TP": 763,
+    "accuracy": 0.726303317535545,
+    "f1": 0.6876971608832808,
+    "precision": 0.5561224489795918,
+    "sensitivity": 0.9008264462809917,
+    "specificity": 0.6385756676557863,
+    "threshold": 0.1761469595689018
+  },
+  "selection_rule": "maximum specificity with sensitivity >= target; highest threshold breaks ties",
+  "selection_split": "validation",
+  "target_sensitivity": 0.9
+}

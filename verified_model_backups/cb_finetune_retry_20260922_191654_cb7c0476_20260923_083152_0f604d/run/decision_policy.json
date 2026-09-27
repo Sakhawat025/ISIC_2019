@@ -1,0 +1,37 @@
+{
+  "checkpoint_sha256": "eb9b9b6082f35538e63eeee793d531385455dc96dfa240dda6f3f4b14b4e695f",
+  "calibration_sha256": "0db258ca742efa7f7042ecf4e4d83a390a8bfa4c5e822d496c1afb7bd28cc287",
+  "validation_manifest_sha256": "a89c761bb3a57fb9014a539980669b7d0f9bd0dc1459432f4d1293374403f140",
+  "binary_temperature": 1.948074661662781,
+  "target_sensitivity": 0.9,
+  "best_epoch": 7,
+  "binary_threshold": 0.2889830888659374,
+  "selection_split": "validation",
+  "n_validation": 2532,
+  "selection_rule": "Maximum specificity subject to empirical validation sensitivity >= target",
+  "default_0_5": {
+    "threshold": 0.5,
+    "sensitivity": 0.8288075560802833,
+    "specificity": 0.9198813056379822,
+    "precision": 0.8387096774193549,
+    "accuracy": 0.8894154818325435,
+    "f1": 0.833729216152019,
+    "TN": 1550,
+    "FP": 135,
+    "FN": 145,
+    "TP": 702
+  },
+  "selected_threshold_metrics": {
+    "threshold": 0.2889830888659374,
+    "sensitivity": 0.9008264462809917,
+    "specificity": 0.8403560830860534,
+    "precision": 0.7393410852713178,
+    "accuracy": 0.8605845181674565,
+    "f1": 0.8121341138903673,
+    "TN": 1416,
+    "FP": 269,
+    "FN": 84,
+    "TP": 763
+  },
+  "note": "Development-set operating point. No guaranteed test or clinical sensitivity."
+}

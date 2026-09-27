@@ -1,0 +1,41 @@
+{
+  "binary_temperature": 1.948074661662781,
+  "multiclass_temperature": 0.9582356966451643,
+  "binary_threshold": 0.5,
+  "threshold_status": "default; validation selection pending",
+  "fit_split": "calibration only",
+  "n_calibration": 1266,
+  "best_epoch": 7,
+  "baseline_epoch": 9,
+  "checkpoint_sha256": "eb9b9b6082f35538e63eeee793d531385455dc96dfa240dda6f3f4b14b4e695f",
+  "calibration_manifest_sha256": "81e4cd4c67e627406b2357d2a3985a6ace5b33cb75c2207f9e293162ab710f73",
+  "classes": [
+    "AK",
+    "BCC",
+    "BKL",
+    "DF",
+    "MEL",
+    "NV",
+    "SCC",
+    "VASC"
+  ],
+  "malignant_indices": [
+    1,
+    4,
+    6
+  ],
+  "calibration_metrics": {
+    "binary_nll": {
+      "before": 0.3618722330618194,
+      "after": 0.28737959693026527
+    },
+    "multiclass_nll": {
+      "before": 0.586451674335754,
+      "after": 0.5855103323280063
+    },
+    "binary_brier": {
+      "before": 0.09181299166399644,
+      "after": 0.08554482321728561
+    }
+  }
+}

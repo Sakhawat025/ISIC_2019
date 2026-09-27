@@ -1,0 +1,5 @@
+image_path,image_id,label,sha256,class_name,exclusion_reason
+C:\SRS(ISIC_2019)\Dataset\MEL\ISIC_0067502.jpg,isic_0067502,4,33d39335eecc56d338aafb996cddadfacc26cd92384f2c4a36212e47ab8659c6,MEL,Identical file bytes with unresolved conflicting class labels
+C:\SRS(ISIC_2019)\Dataset\MEL\ISIC_0071017.jpg,isic_0071017,4,d541d12ddc9cc7783ecf20e0c565e811e682634be5d8be9decca0032039f8ff8,MEL,Identical file bytes with unresolved conflicting class labels
+C:\SRS(ISIC_2019)\Dataset\NV\ISIC_0067980.jpg,isic_0067980,5,33d39335eecc56d338aafb996cddadfacc26cd92384f2c4a36212e47ab8659c6,NV,Identical file bytes with unresolved conflicting class labels
+C:\SRS(ISIC_2019)\Dataset\NV\ISIC_0069013.jpg,isic_0069013,5,d541d12ddc9cc7783ecf20e0c565e811e682634be5d8be9decca0032039f8ff8,NV,Identical file bytes with unresolved conflicting class labels

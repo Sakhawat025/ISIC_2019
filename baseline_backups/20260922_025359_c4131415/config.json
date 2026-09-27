@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 4,
+  "accumulation_steps": 4,
+  "max_epochs": 20,
+  "warmup_epochs": 3,
+  "patience": 4,
+  "min_delta": 0.0001,
+  "classes": [
+    "AK",
+    "BCC",
+    "BKL",
+    "DF",
+    "MEL",
+    "NV",
+    "SCC",
+    "VASC"
+  ],
+  "malignant_indices": [
+    1,
+    4,
+    6
+  ],
+  "initialization": "Fresh ImageNet backbones; fresh task heads; no old ISIC checkpoint",
+  "binary_loss_weight": 0.5,
+  "training_class_weights": "normalized inverse square root counts",
+  "protocol": "centralized only; train/validation/calibration/test separated",
+  "python": "3.11.16",
+  "device": "cuda"
+}

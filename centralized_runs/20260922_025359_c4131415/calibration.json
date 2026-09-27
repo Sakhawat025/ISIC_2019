@@ -1,0 +1,23 @@
+{
+  "binary_temperature": 1.4790521836475639,
+  "multiclass_temperature": 0.9099993387868306,
+  "binary_threshold": 0.5,
+  "fit_split": "calibration only",
+  "checkpoint": "C:\\SRS(ISIC_2019)\\centralized_runs\\20260922_025359_c4131415\\best_centralized_model.pth",
+  "best_epoch": 9,
+  "classes": [
+    "AK",
+    "BCC",
+    "BKL",
+    "DF",
+    "MEL",
+    "NV",
+    "SCC",
+    "VASC"
+  ],
+  "malignant_indices": [
+    1,
+    4,
+    6
+  ]
+}

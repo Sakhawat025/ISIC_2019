@@ -1,0 +1,14 @@
+{
+  "binary_nll_after": 0.4282045035276072,
+  "binary_nll_before": 0.7146876772161841,
+  "binary_temperature": 3.114594470474537,
+  "fit_split": "calibration",
+  "multiclass_nll_after": 0.8693021350907307,
+  "multiclass_nll_before": 1.25621174551688,
+  "multiclass_temperature": 2.2810442060262126,
+  "n_images": 1266,
+  "provenance": {
+    "manifest_sha256": "81e4cd4c67e627406b2357d2a3985a6ace5b33cb75c2207f9e293162ab710f73",
+    "model_sha256": "168d4c20fba43b795d6d3f3a284a8eed4e9cd15a03489d588500562f9aa2b868"
+  }
+}

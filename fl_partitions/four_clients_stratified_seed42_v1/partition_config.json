@@ -1,0 +1,24 @@
+{
+  "num_clients": 4,
+  "seed": 42,
+  "method": "StratifiedGroupKFold",
+  "description": "Simulated clients with approximately similar class proportions. Whole recorded groups remain within a single client.",
+  "classes": [
+    "AK",
+    "BCC",
+    "BKL",
+    "DF",
+    "MEL",
+    "NV",
+    "SCC",
+    "VASC"
+  ],
+  "source_split_sha256": {
+    "train": "b422be330b2ca702b56069a2875a0f997f7acbabdb8a3816a9f4679e49dd76cf",
+    "validation": "a89c761bb3a57fb9014a539980669b7d0f9bd0dc1459432f4d1293374403f140",
+    "calibration": "81e4cd4c67e627406b2357d2a3985a6ace5b33cb75c2207f9e293162ab710f73",
+    "test": "015fd7ceb6c31521e86c71811f9a0d9dfc95ea211f38d89569eeaeb11609a8c9"
+  },
+  "training_images": 17731,
+  "limitations": "Patient/lesion separation is only as complete as the supplied group metadata. This is not a hospital-based partition."
+}

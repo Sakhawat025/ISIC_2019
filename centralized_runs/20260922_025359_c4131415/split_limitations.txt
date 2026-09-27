@@ -1,0 +1,5 @@
+No lesion/patient metadata supplied: independence of different views is unverified.
+Excluded 4 images from 2 exact-byte groups with conflicting labels. All members of each conflicting group were excluded; source files were not modified.
+Same-label exact duplicates are grouped into one partition.
+Exact-byte checks do not identify all near-duplicate or re-encoded images.
+The prior test set has already been inspected; these are exploratory results, not a pristine external validation.

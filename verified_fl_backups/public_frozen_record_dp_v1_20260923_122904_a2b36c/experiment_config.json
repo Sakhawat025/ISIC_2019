@@ -1,0 +1,396 @@
+{
+  "initialization_sha256": "84f8d8cc8cc3562bd94f4d0c695a7dac2efe64b8aa7b686ce44b74790c662a85",
+  "protocol": {
+    "accountant": "rdp",
+    "accounting_requirement": "Persist each client's accountant across rounds and restarts; additional private training attempts must also be accounted for.",
+    "binary_loss_weight": 0.5,
+    "class_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "clients": [
+      {
+        "client_id": 0,
+        "expected_poisson_batch_size": 63.34285714285714,
+        "max_grad_norm": 1.0,
+        "n_images": 4434,
+        "noise_multiplier": 0.650634765625,
+        "noise_std_on_gradient_sum": 0.650634765625,
+        "planned_final_epsilon": 7.9996425564687454,
+        "sample_rate": 0.014285714285714285,
+        "steps_per_epoch": 70,
+        "steps_per_round": 70,
+        "total_steps": 700
+      },
+      {
+        "client_id": 1,
+        "expected_poisson_batch_size": 63.31428571428571,
+        "max_grad_norm": 1.0,
+        "n_images": 4432,
+        "noise_multiplier": 0.650634765625,
+        "noise_std_on_gradient_sum": 0.650634765625,
+        "planned_final_epsilon": 7.9996425564687454,
+        "sample_rate": 0.014285714285714285,
+        "steps_per_epoch": 70,
+        "steps_per_round": 70,
+        "total_steps": 700
+      },
+      {
+        "client_id": 2,
+        "expected_poisson_batch_size": 63.32857142857143,
+        "max_grad_norm": 1.0,
+        "n_images": 4433,
+        "noise_multiplier": 0.650634765625,
+        "noise_std_on_gradient_sum": 0.650634765625,
+        "planned_final_epsilon": 7.9996425564687454,
+        "sample_rate": 0.014285714285714285,
+        "steps_per_epoch": 70,
+        "steps_per_round": 70,
+        "total_steps": 700
+      },
+      {
+        "client_id": 3,
+        "expected_poisson_batch_size": 63.31428571428571,
+        "max_grad_norm": 1.0,
+        "n_images": 4432,
+        "noise_multiplier": 0.650634765625,
+        "noise_std_on_gradient_sum": 0.650634765625,
+        "planned_final_epsilon": 7.9996425564687454,
+        "sample_rate": 0.014285714285714285,
+        "steps_per_epoch": 70,
+        "steps_per_round": 70,
+        "total_steps": 700
+      }
+    ],
+    "delta": 1e-05,
+    "initialization_sha256": "84f8d8cc8cc3562bd94f4d0c695a7dac2efe64b8aa7b686ce44b74790c662a85",
+    "local_epochs_per_round": 1,
+    "max_grad_norm": 1.0,
+    "max_physical_batch_size": 4,
+    "neighboring_relation": "add_remove",
+    "nominal_batch_size": 64,
+    "num_clients": 4,
+    "partition_sha256": {
+      "client_0_train.csv": "31445c1e141ad7422ef92bcc5d12fe7f9b581c855e43d8fa7f120e8862c92da8",
+      "client_1_train.csv": "fef7675551a740b41f750db628c21803f5245aabae198ffeae9191d2949a42d4",
+      "client_2_train.csv": "93878b4ba1994e1870c36b95da29b6197387200386139ef1ef6b787fa196bce7",
+      "client_3_train.csv": "18de463ba0ed33be4e1e919e0f6b1764274ab7080dec169df403cc0007ff260a",
+      "split_calibration.csv": "81e4cd4c67e627406b2357d2a3985a6ace5b33cb75c2207f9e293162ab710f73",
+      "split_test.csv": "015fd7ceb6c31521e86c71811f9a0d9dfc95ea211f38d89569eeaeb11609a8c9",
+      "split_validation.csv": "a89c761bb3a57fb9014a539980669b7d0f9bd0dc1459432f4d1293374403f140"
+    },
+    "privacy_unit": "one image record",
+    "protocol": "record_dp_sgd_10rounds_v1",
+    "rounds": 10,
+    "sampling": "Poisson after PrivacyEngine conversion",
+    "schedule": [
+      {
+        "client_id": 0,
+        "cumulative_steps": 70,
+        "delta": 1e-05,
+        "planned_epsilon": 4.353026024252815,
+        "round": 1
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 140,
+        "delta": 1e-05,
+        "planned_epsilon": 5.003009376366692,
+        "round": 2
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 210,
+        "delta": 1e-05,
+        "planned_epsilon": 5.510338574923197,
+        "round": 3
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 280,
+        "delta": 1e-05,
+        "planned_epsilon": 5.952970807915308,
+        "round": 4
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 350,
+        "delta": 1e-05,
+        "planned_epsilon": 6.3576097917898835,
+        "round": 5
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 420,
+        "delta": 1e-05,
+        "planned_epsilon": 6.718308193645051,
+        "round": 6
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 490,
+        "delta": 1e-05,
+        "planned_epsilon": 7.066383190499624,
+        "round": 7
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 560,
+        "delta": 1e-05,
+        "planned_epsilon": 7.389910577707728,
+        "round": 8
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 630,
+        "delta": 1e-05,
+        "planned_epsilon": 7.707298654054489,
+        "round": 9
+      },
+      {
+        "client_id": 0,
+        "cumulative_steps": 700,
+        "delta": 1e-05,
+        "planned_epsilon": 7.9996425564687454,
+        "round": 10
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 70,
+        "delta": 1e-05,
+        "planned_epsilon": 4.353026024252815,
+        "round": 1
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 140,
+        "delta": 1e-05,
+        "planned_epsilon": 5.003009376366692,
+        "round": 2
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 210,
+        "delta": 1e-05,
+        "planned_epsilon": 5.510338574923197,
+        "round": 3
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 280,
+        "delta": 1e-05,
+        "planned_epsilon": 5.952970807915308,
+        "round": 4
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 350,
+        "delta": 1e-05,
+        "planned_epsilon": 6.3576097917898835,
+        "round": 5
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 420,
+        "delta": 1e-05,
+        "planned_epsilon": 6.718308193645051,
+        "round": 6
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 490,
+        "delta": 1e-05,
+        "planned_epsilon": 7.066383190499624,
+        "round": 7
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 560,
+        "delta": 1e-05,
+        "planned_epsilon": 7.389910577707728,
+        "round": 8
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 630,
+        "delta": 1e-05,
+        "planned_epsilon": 7.707298654054489,
+        "round": 9
+      },
+      {
+        "client_id": 1,
+        "cumulative_steps": 700,
+        "delta": 1e-05,
+        "planned_epsilon": 7.9996425564687454,
+        "round": 10
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 70,
+        "delta": 1e-05,
+        "planned_epsilon": 4.353026024252815,
+        "round": 1
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 140,
+        "delta": 1e-05,
+        "planned_epsilon": 5.003009376366692,
+        "round": 2
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 210,
+        "delta": 1e-05,
+        "planned_epsilon": 5.510338574923197,
+        "round": 3
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 280,
+        "delta": 1e-05,
+        "planned_epsilon": 5.952970807915308,
+        "round": 4
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 350,
+        "delta": 1e-05,
+        "planned_epsilon": 6.3576097917898835,
+        "round": 5
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 420,
+        "delta": 1e-05,
+        "planned_epsilon": 6.718308193645051,
+        "round": 6
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 490,
+        "delta": 1e-05,
+        "planned_epsilon": 7.066383190499624,
+        "round": 7
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 560,
+        "delta": 1e-05,
+        "planned_epsilon": 7.389910577707728,
+        "round": 8
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 630,
+        "delta": 1e-05,
+        "planned_epsilon": 7.707298654054489,
+        "round": 9
+      },
+      {
+        "client_id": 2,
+        "cumulative_steps": 700,
+        "delta": 1e-05,
+        "planned_epsilon": 7.9996425564687454,
+        "round": 10
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 70,
+        "delta": 1e-05,
+        "planned_epsilon": 4.353026024252815,
+        "round": 1
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 140,
+        "delta": 1e-05,
+        "planned_epsilon": 5.003009376366692,
+        "round": 2
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 210,
+        "delta": 1e-05,
+        "planned_epsilon": 5.510338574923197,
+        "round": 3
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 280,
+        "delta": 1e-05,
+        "planned_epsilon": 5.952970807915308,
+        "round": 4
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 350,
+        "delta": 1e-05,
+        "planned_epsilon": 6.3576097917898835,
+        "round": 5
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 420,
+        "delta": 1e-05,
+        "planned_epsilon": 6.718308193645051,
+        "round": 6
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 490,
+        "delta": 1e-05,
+        "planned_epsilon": 7.066383190499624,
+        "round": 7
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 560,
+        "delta": 1e-05,
+        "planned_epsilon": 7.389910577707728,
+        "round": 8
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 630,
+        "delta": 1e-05,
+        "planned_epsilon": 7.707298654054489,
+        "round": 9
+      },
+      {
+        "client_id": 3,
+        "cumulative_steps": 700,
+        "delta": 1e-05,
+        "planned_epsilon": 7.9996425564687454,
+        "round": 10
+      }
+    ],
+    "scope": "Conditional on fixed partitions, declared client sizes, and public pretrained initialization. Does not provide patient-level or whole-client privacy. Does not cover earlier non-private centralized results or private evaluation metrics released without protection.",
+    "status": "planned_not_trained",
+    "target_epsilon": 8.0
+  },
+  "training": {
+    "aggregation": "equal-client Flower FedAvg",
+    "binary_loss_weight": 0.5,
+    "execution": "single-process sequential client simulation",
+    "learning_rate": 0.001,
+    "multiclass_loss": "unweighted cross entropy",
+    "noise_rng": "PyTorch PRNG with OS-seeded private generator",
+    "non_dp_reference": "same clipping and sampling, noise_multiplier=0",
+    "optimizer": "AdamW",
+    "optimizer_reset": "at each new global round",
+    "per_record_clipping": true,
+    "physical_batch_size": 4,
+    "precision": "float32",
+    "recovery": "reserve then commit; uncertain steps are not repeated",
+    "secure_noise_arithmetic": true,
+    "selection": "maximum validation macro F1; earliest round breaks ties",
+    "weight_decay": 0.0001
+  }
+}

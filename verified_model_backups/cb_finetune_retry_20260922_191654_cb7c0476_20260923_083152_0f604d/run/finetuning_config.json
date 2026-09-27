@@ -1,0 +1,46 @@
+{
+  "image_size": 224,
+  "classes": [
+    "AK",
+    "BCC",
+    "BKL",
+    "DF",
+    "MEL",
+    "NV",
+    "SCC",
+    "VASC"
+  ],
+  "malignant_indices": [
+    1,
+    4,
+    6
+  ],
+  "class_balancing": "effective_number",
+  "beta": 0.999,
+  "class_weights": [
+    0.7989591234440382,
+    0.40391330028366224,
+    0.43370344384842446,
+    2.3561827628148153,
+    0.3805993556655484,
+    0.3645863023469536,
+    1.0274126127200944,
+    2.234643098876463
+  ],
+  "label_smoothing": 0.05,
+  "binary_loss_weight": 0.5,
+  "head_lr": 1e-05,
+  "backbone_lr": 2e-06,
+  "weight_decay": 0.001,
+  "max_epochs": 8,
+  "patience": 3,
+  "minimum_macro_f1_gain": 0.002,
+  "maximum_binary_auc_drop": 0.01,
+  "baseline_epoch": 9,
+  "baseline_sha256": "1736f0317d4ed7e1f7a38968a60322c7c31bc570c8d668551f8f81225763a757",
+  "selection": "validation macro F1 with baseline binary AUC guard",
+  "amp_enabled": true,
+  "amp_init_scale": 1024.0,
+  "amp_growth_interval": 2000,
+  "amp_overflow_handling": "Skip non-finite gradient updates; stop on repeated overflow"
+}

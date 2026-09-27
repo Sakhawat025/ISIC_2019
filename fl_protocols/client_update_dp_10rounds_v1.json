@@ -1,0 +1,28 @@
+{
+  "framework": "Flower",
+  "mechanism": "client-side clipped Gaussian update",
+  "num_clients": 4,
+  "max_rounds": 10,
+  "local_epochs": 1,
+  "participation": "all clients every round",
+  "sampling_amplification": false,
+  "protected_unit": "one fixed client's complete training dataset",
+  "neighboring_relation": "replacement of one client's training dataset, conditional on fixed client identities and partition",
+  "clipping": "one global L2 norm over the transmitted update vector",
+  "clipping_norm": 1.0,
+  "replacement_sensitivity_bound": 2.0,
+  "noise_multiplier_relative_to_sensitivity": 2.0185066714468465,
+  "noise_std_per_coordinate_before_aggregation": 4.037013342893693,
+  "target_epsilon_per_client": 8.0,
+  "target_delta_per_client": 1e-05,
+  "planned_final_epsilon_per_client": 7.990423180067752,
+  "accounting": "RDP composition of unsampled Gaussian releases",
+  "release_rules": [
+    "Clip the complete transmitted update before adding noise.",
+    "Do not transmit unprotected data-dependent buffers or metrics.",
+    "Use fresh noise; do not publish or reuse its random seed.",
+    "Persist privacy expenditure across rounds and restarts.",
+    "Account for additional private releases, including retries."
+  ],
+  "scope": "Accounting plan for training-update releases only. Not an end-to-end privacy certification of the notebook, partition construction, evaluation outputs or prior models."
+}

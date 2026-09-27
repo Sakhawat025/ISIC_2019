@@ -1,0 +1,25 @@
+              precision    recall  f1-score   support
+
+          AK     0.5760    0.5581    0.5669       129
+         BCC     0.7575    0.9157    0.8291       498
+         BKL     0.6667    0.6937    0.6799       395
+          DF     0.6364    0.8000    0.7089        35
+         MEL     0.8159    0.6209    0.7052       678
+          NV     0.8866    0.9151    0.9006      1931
+         SCC     0.7414    0.4526    0.5621        95
+        VASC     0.7347    0.9730    0.8372        37
+
+    accuracy                         0.8154      3798
+   macro avg     0.7269    0.7411    0.7237      3798
+weighted avg     0.8162    0.8154    0.8112      3798
+
+
+BINARY
+               precision    recall  f1-score   support
+
+Non-malignant     0.8926    0.9402    0.9158      2527
+    Malignant     0.8671    0.7750    0.8184      1271
+
+     accuracy                         0.8849      3798
+    macro avg     0.8798    0.8576    0.8671      3798
+ weighted avg     0.8840    0.8849    0.8832      3798
